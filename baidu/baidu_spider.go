@@ -22,7 +22,7 @@ func main() {
 		}
 		fmt.Println(item)
 		// save to crawlab data source
-		// un comment to enable database saving
+		// uncomment to enable database saving
 		//_ = crawlab.SaveItem(item)
 	})
 
